@@ -1,1 +1,2 @@
 Adding one line to check my post-commit hook
+add one more line in newfile
