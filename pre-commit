@@ -1,0 +1,10 @@
+#!/bin/bash
+regex="^@devopschannel\.com$"
+email="$GIT_AUTHOR_EMAIL"
+if [[ $email =~ $regex ]]; then
+  echo "Your email is valid, you can proceed!"
+  exit 0
+else
+  echo "Your email is not authorized to commit!"
+  exit 1
+fi

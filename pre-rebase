@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Oops! Rebasing is not allowed in your company network!"
+exit 1
